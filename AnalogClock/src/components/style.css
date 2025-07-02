@@ -1,0 +1,36 @@
+.clock-container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.clock {
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hand{
+    position: absolute;
+    top: 10px;
+    left: 98px;
+    transform-origin: 50% 90%;
+}
+
+.hour-hand {
+    width: 10px;
+    height: 90px;
+    background: blue;
+}
+.minuts-hand {
+    width: 7px;
+    height: 90px;
+    background: rgb(0, 255, 187);
+}
+.second-hand{
+    width: 3px;
+    height: 90px;
+    background: #111;
+}
